@@ -589,8 +589,8 @@ def save_image(image, image_name, boxes, masks, class_ids, scores, class_names, 
             draw.rectangle((x1, y1, x2, y2), outline=color)
 
         # Label
-        # font = ImageFont.truetype('/Library/Fonts/Arial.ttf', 15)
-        font = ImageFont.truetype('OpenSans-Semibold.ttf', 15)
+        font = ImageFont.truetype('arial.ttf', 15)
+        # font = ImageFont.truetype('OpenSans-Semibold.ttf', 15)
         draw.text((x1, y1), "%s %f" % (label, score), (255, 255, 255), font)
 
     masked_image.save(os.path.join(save_dir, '%s.jpg' % (image_name)))
