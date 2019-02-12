@@ -4,7 +4,7 @@ Pothole Detection via MaskRCNN
 Dataset used : Sunny 
 
 **Structure for the repository**
-.
+```
 ├── AnnotationFile
 │   └── Pothole.json
 ├── ImageWorking_add_textInImage
@@ -28,5 +28,5 @@ Dataset used : Sunny
 │   ├── VideoFormationMaskRCNN.ipynb
 │   └── successfulVideoFormationWithMaskRCNN.ipynb
 └── visualize.py
-
+```
 Accuracy : 72% in different environments
