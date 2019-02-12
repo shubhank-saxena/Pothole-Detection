@@ -30,3 +30,12 @@ Dataset used : Sunny
 └── visualize.py
 
 Accuracy : 72% in different environments
+
+**We have created Android Application for the detection of potholes on Roads by the end of february we will shifting our application and model to openSource.**
+
+To increase the model accuracy this time we are looking forward to _train it 6 diff environments_,
+
+_Drop a mail if someOne require an early access to private repository_
+'pradyumgupta@ieee.org' 
+
+
