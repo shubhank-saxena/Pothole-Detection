@@ -136,8 +136,8 @@ this Deep learning model feel to take a pull requests_
 - [gpustat](https://github.com/wookayin/gpustat)
 
 ## References used
-[Matterport MaskRCNN](https://github.com/matterport/Mask_RCNN)
-[Priya Diwani](https://www.analyticsvidhya.com/blog/2018/07/building-mask-r-cnn-model-detecting-damage-cars-python/)
+- [Matterport MaskRCNN](https://github.com/matterport/Mask_RCNN)
+- [Priya Diwani](https://www.analyticsvidhya.com/blog/2018/07/building-mask-r-cnn-model-detecting-damage-cars-python/)
 
 _Feel free to contact me if you have any questions and/or suggestions _
 **_[pradyumg@gmail.com](mailto:pradyumg@gmail.com)_**
