@@ -11,9 +11,9 @@ Pothole detection Accuracy **__81%__** in different environments
 
 ## Team
 
-[Pradyum Gupta](https://www.linkedin.com/in/pradyumgupta/)
-[Surya Pratap Shekhawat](https://www.linkedin.com/in/surya-pratap-shekhawat-906147159/)
-[Avinash Kumar](https://www.linkedin.com/in/avinashme/)
+- [Pradyum Gupta](https://www.linkedin.com/in/pradyumgupta/)
+- [Surya Pratap Shekhawat](https://www.linkedin.com/in/surya-pratap-shekhawat-906147159/)
+- [Avinash Kumar](https://www.linkedin.com/in/avinashme/)
 
 
 ## SETUP
