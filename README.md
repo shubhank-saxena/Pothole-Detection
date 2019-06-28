@@ -6,6 +6,14 @@ This whole Project was primarly build for the TATA innoverse competition 2018
 
 This Project totally took 5 Months to complete
 
+## Gify Link
+https://media.giphy.com/media/Xc9DFuCIIiouihgfzZ/giphy.gif
+
+## main Links
+https://giphy.com/gifs/pothole-detection-Xc9DFuCIIiouihgfzZ/links
+
+
+
 ------------------------------------------------------------------------------
 
 ### Our Contributers
