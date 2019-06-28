@@ -4,6 +4,12 @@ Pothole Detection via MaskRCNN
 This whole Project was primarly build for the **__TATA innoverse competition 2018
 (November) Pothole Detection Competition__**
 
+
+**Abstract**
+This Project is based upon collection of images from phone application's and usinng Deep Learning
+Technique( Mask RCNN ), we have trained a custom machine learning model for detection of potholes
+inside images and plot them on google maps,which includes the size of the pothole inside image.
+
 Pothole detection Accuracy **__81%__** in different environments
 
 ![Pothole Detected](https://media.giphy.com/media/Xc9DFuCIIiouihgfzZ/giphy.gif)  ![Original Images Link](https://media.giphy.com/media/jpKRIVzNVJv3VEegTZ/giphy.gif)
@@ -161,6 +167,8 @@ this Deep learning model feel to take a pull requests_
 ## References used
 - [Matterport MaskRCNN](https://github.com/matterport/Mask_RCNN)
 - [Priya Diwani](https://www.analyticsvidhya.com/blog/2018/07/building-mask-r-cnn-model-detecting-damage-cars-python/)
+- [CrowdAi](https://www.crowdai.org/)
+
 
 _Feel free to contact me if you have any questions and/or suggestions _
 **_[pradyumg@gmail.com](mailto:pradyumg@gmail.com)_**
