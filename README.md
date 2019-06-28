@@ -6,6 +6,19 @@ This whole Project was primarly build for the TATA innoverse competition 2018
 
 Pothole detection Accuracy 81%
 
+
+-------------------------------------------------------------------------------
+Pothole detected
+## Gify Link
+https://media.giphy.com/media/Xc9DFuCIIiouihgfzZ/giphy.gif
+
+## main Links
+https://giphy.com/gifs/pothole-detection-Xc9DFuCIIiouihgfzZ/links
+-------------------------------------------------------------------------------
+Originals gify images
+
+https://giphy.com/gifs/pothole-detection-jpKRIVzNVJv3VEegTZ/links
+
 ------------------------------------------------------------------------------
 
 ### Team
@@ -201,6 +214,30 @@ gpustat
 1.  https://github.com/matterport/Mask_RCNN
 2.  https://www.analyticsvidhya.com/blog/2018/07/building-mask-r-cnn-model-detecting-damage-cars-python/
 3.  
+````
+
+
+RESIZE Image
+```` python
+from PIL import Image
+import os
+from resizeimage import resizeimage
+
+count = 0
+
+for f in os.listdir(os.getcwd()):
+    try:
+        with Image.open(f) as image:
+            count +=1
+            cover = resizeimage.resize_cover(image, [800,800])
+            cover.save('pgm-1_{}.jpg'.format(count),image.format)
+            print(count)
+            os.remove(f)
+    except(OSError) as e:
+        print('Bad Image {}{}'.format(f,count))
+
+
+
 ````
 
 
