@@ -1,0 +1,63 @@
+Files uploaded on GCP Storage
+
+-------------- Uploading & Downloading Files From Cloud Storage Buckets --------
+
+++ gsUtil Link
+
+    +++ main WebPage
+    https://cloud.google.com/sdk/docs/quickstart-linux
+
+    ++++ Direct File link
+    https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-246.0.0-linux-x86_64.tar.gz
+
+++ For Authentication in VM Machine
+
+  gcloud auth login
+
+++ For Authentiaction in Storage adding user in system
+
+  https://stackoverflow.com/a/53657058/7999665
+
+-------------- Monitoring GPU -------------------
+gpustat -
+
+------------- Custom running Process --------------
+python3 custom.py train --dataset=/home/pradyum_gupta96/Mask_RCNN/customImages --weights=logs/damage2019050
+3T1050/mask_rcnn_damage_0160.h5 --logs logs/
+
+-------------- background Process ----------------
+nohup python3 custom.py train --dataset=/home/pradyum_gupta96/Mask_RCNN/customImages --weights=logs/damage2
+0190503T1050/mask_rcnn_damage_0160.h5 --logs logs/&
+
+
+------------ Gcloud Storage -----------------------
+=== pradyum.gupta96@gmail.com ===
+
+gsutil cp -r gs://pothole_project_22may/Mask_RCNN
+
+---------------------------------------------------
+
+Links for the files
+epoch 320
+https://drive.google.com/file/d/1aShefxzQmeB1qerh1Xo2Xkm1SPIy_yzy/view?usp=sharing
+epoch 160
+https://drive.google.com/file/d/1ex7Mo62j7wugrZbmNFZFAuujd_UguRYK/view?usp=sharing
+epoch 40
+https://drive.google.com/file/d/13al3a6WQ9ll7F01yhk68cz9-KFSR-Tce/view?usp=sharing
+base file link
+https://drive.google.com/file/d/1vLZaB80NOYgJLBE7DclIjtaLQ-XagtQC/view?usp=sharing
+
+Dataset Links
+train
+https://drive.google.com/file/d/16-xNP_Ez-3WgFF3vfsP9KJl4ka9hXDlV/view?usp=sharing
+val
+https://drive.google.com/file/d/1rP5tveZgNXJZe_uipJNWUaSqJiow_LGc/view?usp=sharing
+
+
+
+
+
+
+
+
+
