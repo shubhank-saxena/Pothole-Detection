@@ -110,9 +110,32 @@ For making the whole **product life cycle simple and economical** we have used
 This is connected with (Google Cloud Plateform) which is having 2 Virtual Machines
 
 1. We have recieved the **input image from Mobile Application** that is stored in the server for every 24 Hours, Each application just uploads the data via API to server
+
+We have not created any database, therefore we manage everything from file names and directory
+When any image is clicked cordinates is added on the image name
+
+image name looks like
+````
+[latitude]-[longitude].jpg
+````
 2. This is very small server which only collects data from all the application around we have also added compression in image to reduce the load on the server
+
+Everyday at 9pm IST scheduled via cron script (server Two) would run and Mask RCNN
+would run on all the images present in the working directory
+
 3. Both these sever has shared drive, So all this data is fetched by another server this is high computation server this runs every 24 hour for 1 hour daily and process all the images periodically
+
+image name looks like
+````
+[number_of_pothole]-[size_of_pothole]-[latitude]-[longitude].jpg
+````
+
 4. Final updated data is refelected on google maps which can be seen in the application
+
+Now only names of the image is parsed in which we consider only two segments for color marking
+
+and other two for the location to be marked on the google maps
+
 
 # Download Andorid Application
 We have used Apache Cordova Framework for the complete development of Android & iOS Application
