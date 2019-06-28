@@ -80,6 +80,11 @@ This folder contains videos and photos that we recorded in May 2019
 **[Test Dataset Download Link](https://drive.google.com/drive/u/2/folders/1duZ9O0If8mpHk8lZkFHQifv5R8z4dcKx)**
 ```
 
+**For custom Training Process**
+````
+extract the zip files and create a folder named as "customImages" and move both folders
+(train) & (val) folder directly inside it and then run the command
+````
 Structure for the whole Test Dataset Links
 
 ├── test_dataset
@@ -104,6 +109,16 @@ Structure for the whole Test Dataset Links
 | epoch 160 | [Gdrive link](https://drive.google.com/file/d/1JA_xsHkohFiX-T7vSGefpTGemqMbYDCt/view?usp=sharing) |
 | base model | [Github link](https://github.com/matterport/Mask_RCNN/releases)|
 
+
+**Custom Training Process**
+```bash
+python3 custom.py train --dataset=customImages --weights=mask_rcnn_damage_0160.h5 --logs logs/
+```
+
+**Background Training Process**
+````bash
+nohup python3 custom.py train --dataset=customImages --weights=mask_rcnn_damage_0160.h5 --logs logs/&
+````
 # Running Architecture for Application
 
 ![System Configration Image](https://raw.githubusercontent.com/Prady96/Pothole-Detection/master/Images/Pothole%20Detection%20Project.png?token=AHIVHIJUTMMMJIYCYLEPQN25D4EQC)
