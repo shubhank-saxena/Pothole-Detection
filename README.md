@@ -132,8 +132,8 @@ this Deep learning model feel to take a pull requests_
 
 ## Extra Utilities that we used while building this whole Project with Application
 
-[Shutil](https://docs.python.org/3/library/shutil.html)
-[gpustat](https://github.com/wookayin/gpustat)
+- [Shutil](https://docs.python.org/3/library/shutil.html)
+- [gpustat](https://github.com/wookayin/gpustat)
 
 ## References used
 [Matterport MaskRCNN](https://github.com/matterport/Mask_RCNN)
