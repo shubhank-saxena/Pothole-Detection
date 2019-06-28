@@ -6,7 +6,7 @@ This whole Project was primarly build for the **__TATA innoverse competition 201
 
 Pothole detection Accuracy **__81%__** in different environments
 
-![Pothole Detected](https://media.giphy.com/media/Xc9DFuCIIiouihgfzZ/giphy.gif)  ![Original Images Link](https://media.giphy.com/media/jpKRIVzNVJv3VEegTZ/giphy.gif)
+![Pothole Detected](https://media.giphy.com/media/Xc9DFuCIIiouihgfzZ/giphy.gif)  ![Original Images Link](http://bit.ly/2XJfmz2)
 
 
 ## Team
