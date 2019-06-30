@@ -84,9 +84,9 @@ This folder contains videos and photos that we recorded in May 2019
 ````
 extract the zip files and create a folder named as "customImages" and move both folders
 (train) & (val) folder directly inside it and then run the command
-````
-Structure for the whole Test Dataset Links
 
+Structure for the whole Test Dataset Links
+````
 ├── test_dataset
 ├──----- Photos
 ├──----- IMG_7300.MOV
@@ -94,7 +94,7 @@ Structure for the whole Test Dataset Links
 ├──----- IMG_7310.MOV
 ├──----- IMG_7311.MOV
 ├──----- IMG_7312.MOV
-```
+````
 #### We have trained model till 160 epoch
 - As our accuracy of our model is 81% people who want to replicate in between and can take it
   the higher accuracy feel free to download
