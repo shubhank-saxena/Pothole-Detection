@@ -5,15 +5,20 @@ This whole Project was primarly build for the **__TATA innoverse competition 201
 (November) Pothole Detection Competition__**
 
 
-**Abstract**
-The main files are ````Final_file_for_tata_innoverse.ipnb````
-
-
+## Abstract
 This Project is based upon collection of images from phone application's and usinng Deep Learning
 Technique( Mask RCNN ), we have trained a custom machine learning model for detection of potholes
 inside images and plot them on google maps,which includes the size of the pothole inside image.
 
 Pothole detection Accuracy **__81%__** in different environments
+
+The main files are ````Final_file_for_tata_innoverse.ipnb````
+
+if you require to train your own custom Machine learning model from the same dataset
+run this simple command referenced from the 
+```
+python3 custom.py train --dataset=customImages --model=/path/to/weights.h5
+```
 
 ![Pothole Detected](https://media.giphy.com/media/Xc9DFuCIIiouihgfzZ/giphy.gif)  ![Original Images Link](https://media.giphy.com/media/jpKRIVzNVJv3VEegTZ/giphy.gif)
 
@@ -103,6 +108,8 @@ Structure for the whole Test Dataset Links
   the higher accuracy feel free to download
 - we are also providing the different stage of trained model so that people who want to consider
   it to use in transfer learning can also use this
+
+- If you are retraining the model then specify path from the epoch h5 else give a base model path provided on github 
 
 
 | Epochs        | Download Link           |
